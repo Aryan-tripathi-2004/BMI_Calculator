@@ -1,61 +1,59 @@
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(images\download1.jpeg);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
-    text-transform: capitalize;
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(BackgroundPic.jpeg);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  text-transform: capitalize;
 }
-.container{
-    border: 2px solid black;
-    height: 600px;
-    width: 500px;
-    border-radius: 5%;
-    display: flex;
-    
-    align-items: center;
-    flex-direction: column;
-    overflow: hidden;
-   background: transparent;
-   backdrop-filter: blur(15px);
-   position: relative;
-}
-.circle{
-    position: absolute;
-    border: 2px solid black;
-    border-radius: 50%;
-    height: 450px;
-    width: 450px; 
-    bottom: -300px;
-    
-}
-.retro{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
-    text-transform: capitalize;
-    margin: 20px;
-    background-color: white;
-    padding: 0.75rem 1rem;
-    border-radius: 0.25rem;
-    border: solid 0.125rem #121212;
-    box-shadow: 0.25rem 0.25rem #121212;
+.container {
+  border: 2px solid black;
+  height: 600px;
+  width: 500px;
+  border-radius: 5%;
+  display: flex;
 
-    transition: transform 50ms, box-shadow 50ms;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  position: relative;
 }
-.retro:active{
-    transform: translate(0.125rem,0.125rem);
-    box-shadow: 0.125rem 0.125rem #121212;
+.circle {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  bottom: -300px;
 }
-.retro:hover{
-    cursor: pointer;
+.retro {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 20px;
+  background-color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  border: solid 0.125rem #121212;
+  box-shadow: 0.25rem 0.25rem #121212;
+
+  transition: transform 50ms, box-shadow 50ms;
 }
-label{
-    margin: 20px;
+.retro:active {
+  transform: translate(0.125rem, 0.125rem);
+  box-shadow: 0.125rem 0.125rem #121212;
 }
-input{
-    margin: 10px;
-    outline: none;
-    
+.retro:hover {
+  cursor: pointer;
+}
+label {
+  margin: 20px;
+}
+input {
+  margin: 10px;
+  outline: none;
 }
